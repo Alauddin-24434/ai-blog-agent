@@ -3,7 +3,7 @@ import googleTrends from 'google-trends-api';
 export async function getTrends(keyword: string) {
   
   try {
-    // শেষ 12 মাসের সময়
+    
     const endTime = new Date();
     const startTime = new Date();
     startTime.setFullYear(endTime.getFullYear() - 1);
